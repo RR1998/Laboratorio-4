@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+    margin: 100px;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    color: #7f888f;
+}
+
+.Learn{
+    width: auto;
+    height: 40px;
+    border: 1px solid #eb6f62;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 10px;
+    background-color: white;
+    color:#eb6f62;
+    border-radius: 50px;
+}
+.Learn:hover{
+    background-color: blue;
+    color: cornflowerblue;
+}
+
+.HeadBot {
+    height: 5px;
+    color: #f56a6a;
+    background-color: #f56a6a;
+    border: none;
+}
+.Titulo{
+
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1em;
+}
+br{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.wrapper i{
+    text-align: center;
+    margin-top: 65px;
+    color: #eb6f62;
+    font-size: 3em;
+}
